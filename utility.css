@@ -1,0 +1,39 @@
+.border {
+  border: 2px solid red;
+  margin: 3px;
+}
+
+.flex {
+  display: flex;
+}
+
+.jutify_center {
+  justify-content: center;
+}
+
+.item_center {
+  align-items: center;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+
+/* For WebKit browsers (like Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 12px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #333; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666; /* color of the scroll thumb */
+  border-radius: 6px; /* roundness of the scroll thumb */
+}
