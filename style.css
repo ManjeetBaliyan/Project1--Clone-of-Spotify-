@@ -22,7 +22,7 @@
   position: relative;
 }
 
-.home ul li {
+.home ul li{
   display: flex;
   gap: 15px;
   width: 14px;
