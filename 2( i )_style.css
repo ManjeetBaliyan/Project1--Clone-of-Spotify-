@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  /* all padding and margin set at 0px */
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-color: black;
+  color: white;
+}
+
+.left {
+  width: 25vw;
+  padding: 10px;
+}
+
+.right {
+  width: 75vw;
+  margin: 16px 0;
+  position: relative;
+}
+
+.home ul li{
+  display: flex;
+  gap: 15px;
+  width: 14px;
+  list-style: none;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.library {
+  min-height: 80vh;
+  position: relative;
+}
+
+.heading {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  padding-top: 14px;
+  padding: 23px 14px;
+  font-weight: bold;
+  align-items: center;
+  font-size: 13px;
+}
+
+.heading img {
+  width: 25px;
+}
+
+.bg-black {
+  background-color: black; /* background color of left div*/
+  color: #fff;
+}
+
+.invert {
+  filter: invert(1); /* Used to convert the color of image from black to white*/
+}
+
+.bg-grey {
+  background-color: #121212;
+}
+
+.mg-1 {
+  margin: 5px;
+}
+
+.footer {
+  display: flex;
+  font-size: 10px;
+  gap: 13px;
+  position: absolute;
+  bottom: 0;
+  padding: 10px 0;
+}
+
+.footer a {
+  color: grey;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1c1d;
+  height: 72px;
+}
+
+.header > * {
+  padding: 20px;
+}
+
+.spotifyPlaylist {
+  padding: 16px;
+}
+
+.cardcontiner {
+  display: flex;
+  gap: 10px;
+  margin: 30px;
+  flex-wrap: wrap; /* screen choti krne pr khud adjust hone k liye queue mai*/
+  max-height: 80vh; /*Height when scroll bar apply*/
+  overflow-y: scroll; /* Add scroll baar*/
+}
+
+.card {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #252525;
+  position: relative;
+}
+
+.card > * {
+  padding-top: 10px;
+}
+
+.card img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.play {
+  width: 28px;
+  height: 28px;
+  background-color: #1fdf64;
+  border-radius: 50%;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 18px;
+  top: 270px;
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+.play:hover {
+  opacity: 1;
+  top: 219px;
+}
+
+
+.button >*{
+  margin: 0 12px;
+}
+
+.signUp {
+  font-weight: bold;
+  background-color: #1e1c1d;
+  color: grey;
+  border: none;
+  outline: none;
+  cursor: pointer; /* hand shown when goes on sign in button */
+  font-size: 17px;
+}
+.signUp:hover {
+  color: white;
+  font-size: 18px;
+}
+
+.LoginUp {
+  font-weight: bold;
+  font-size: 14px;
+  background-color: white;
+  color: black;
+  border-radius: 21px;
+  width: 79px;
+  padding: 10px;
+  cursor: pointer; /* hand shown when goes on sign in button */
+}
+.LoginUp:hover {
+  font-size: 17px;
+  width: 80px;
+}
+
+.Player{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(139, 193, 139);
+  padding: 12px;
+}
+
+.songButtons{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  
+}
