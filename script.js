@@ -3,5 +3,4 @@ async function main() {
   let response = await a.text();
   console.log(response);
 }
-
 main()
