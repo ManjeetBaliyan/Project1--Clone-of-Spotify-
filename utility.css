@@ -24,7 +24,7 @@
 }
 
 
-/* For WebKit browsers (like Chrome, Safari, etc.) */
+/* For WebKit browsers (Like Chrome, Safari, etc.) */
 ::-webkit-scrollbar {
   width: 12px; /* width of the scrollbar */
 }
