@@ -122,7 +122,7 @@
   object-fit: contain;
 }
 
-.play {
+.card.play {
   width: 28px;
   height: 28px;
   background-color: #1fdf64;
@@ -137,7 +137,7 @@
   opacity: 0;
   transition: all 1s ease-out;
 }
-.play:hover {
+.card.play:hover {
   opacity: 1;
   top: 219px;
 }
